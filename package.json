@@ -1,0 +1,33 @@
+{
+  "name": "project_api_with_mocha_and_chai",
+  "version": "1.0.0",
+  "description": "API automation project, using a public API with frameworks: MOCHA, CHAI",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "global": "^4.4.0",
+    "request": "^2.88.2",
+    "require": "^2.4.20"
+  },
+  
+    "directories": {
+      "test": "test"
+    },
+ 
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  },
+  "scripts": {
+    "test": "mocha 'test/testService/**/*.js' --timeout 10000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taynara-Luana/automation-api-with-mocha-chai.git"
+  },
+  "author": "TaynaraLuana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taynara-Luana/automation-api-with-mocha-chai/issues"
+  },
+  "homepage": "https://github.com/Taynara-Luana/automation-api-with-mocha-chai#readme"
+}
